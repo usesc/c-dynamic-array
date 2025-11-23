@@ -9,10 +9,6 @@
 #include <fcntl.h>
 #include <sys/stat.h>
 
-/*
-size = size in elements
-*/
-
 #define cdamemcpy(dest, src, n) __builtin_memcpy(dest, src, n)
 #define cdamemmov(dest, src, n) __builtin_memmove(dest, src, n)
 #define cdainline __attribute__((__always_inline__))
